@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap'); /* New font for fitZen */
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('https://th.bing.com/th/id/OIP.eX5LpIG3sF5EuLdJ8NHDJwAAAA?rs=1&pid=ImgDetMain') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            backdrop-filter: blur(5px);
+        }
+
+        .welcome-container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .website-name {
+            font-size: 36px;
+            font-weight: bold;
+            color: #ff5722;
+            font-family: 'Raleway', sans-serif; /* Updated font */
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: #ffab91;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .welcome-message {
+            font-size: 16px;
+            color: #ccc;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #555;
+            color: #fff;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            border-radius: 5px;
+            border: none;
+            background-color: #ff5722;
+            color: #fff;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="website-name">fitflow</div>
+        <div class="tagline">Empowering Generation Fitness</div>
+        <div class="welcome-message">
+            Welcome to fitflow! Log in to start your journey towards a healthier, stronger you.
+        </div>
+        <form>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
